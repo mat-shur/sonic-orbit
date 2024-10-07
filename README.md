@@ -49,7 +49,7 @@ To get started with **Orbit**, you have two options:
 
 1. **Download the APK**:
    - *[This file from repository](https://github.com/mat-shur/sonic-orbit/blob/main/Orbit.apk)*
-or
+   - or
    - *Download from [Google Drive](https://drive.google.com/file/d/1d5hi5XBz_7hdl-tOJlFdXPP1QTIw_GUy/view?usp=sharing)*
 
 2. **Install the APK**:
