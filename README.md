@@ -151,6 +151,7 @@ I also won't hide the fact that I got my first pang of curiosity when I accident
 - **NFT Collection**: `orbnuDBpRzHJzjd4Ki9Kqz8LNijqmDYNWVeavYkJVjz`
 - **NFT Guard**: `6kLTGfccW6d1HgeWvGsetfB1U3QxeVMmXTEGVexopwZu`
 - **Token**: `ED5BmhZd5KPFTzDSv6r7Z6xB3CS5DGXEqKhVDntuPQwh`
+- **Test user account with in-game assets**: `Eb9hJKJg9BL6B1LGxCL7HQ25H5VVxDcymVWdnf6t5amQ`
 
 ---
 
