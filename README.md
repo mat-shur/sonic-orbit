@@ -251,6 +251,18 @@ _For the complete source code, please refer to the [file](https://github.com/mat
 
 - [ ] **Increase Content Quantity**: additional content such as new levels, vessels, and challenges needs to be developed to enhance player engagement and retention.
 
+- [ ] **App Crash when Sonic SVM Crashes**: when Sonic SVM crashes, it can cause the app to crash. This issue is currently in fixing process. 
+So, if the game crashes, it's likely that Sonic SVM is inaccessible at that time.
+
+
+---
+
+## 🙏 Acknowledgements
+
+- [Sonic SVM]([https://sonic-svm.com](https://docs.sonic.game)) for providing the SVM layer.
+- [Anchor Framework](https://www.anchor-lang.com/) for the robust development framework.
+- [Godot Engine](https://godotengine.org/) for the game development platform.
+
 ---
 
 ## 👨‍💻 About Me
