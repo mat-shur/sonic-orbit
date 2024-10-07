@@ -101,7 +101,7 @@ To get started with **Orbit**, you have two options:
 ---
 ## 🎥 Demo | Trailer
 
-[Watch the game trailer here!](#)
+[Watch the game trailer here!](https://www.youtube.com/shorts/ZTcbbzKCB-g) - *i did it for fun, better watch the gameplay!*
 
 [Watch the gameplay here!](https://www.youtube.com/watch?v=keA1qONlrCE)
 
