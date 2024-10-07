@@ -7,6 +7,10 @@ Earn **$Orbitals**, get NFTs of vessels, trade them with other players, and don'
 
 ---
 
+❗️ **Important message**: Due to the high prices and the fact that it will take a long time to collect tokens, 25k points will be added at the end of each attempt to make the game easier to review. This is solely for the review of Gaming Sonic Rush judges to facilitate testing of chest openings and buying upgrades. ❗️
+
+---
+
 ## 🌌 Cover Images
 
 ![Orbit Cover Image 1](https://i.ibb.co/5BKsPWH/image.png)  
