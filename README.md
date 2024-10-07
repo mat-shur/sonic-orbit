@@ -259,7 +259,7 @@ So, if the game crashes, it's likely that Sonic SVM is inaccessible at that time
 
 ## 🙏 Acknowledgements
 
-- [Sonic SVM]([https://sonic-svm.com](https://docs.sonic.game)) for providing the SVM layer.
+- [Sonic SVM](https://docs.sonic.game) for providing the SVM layer.
 - [Anchor Framework](https://www.anchor-lang.com/) for the robust development framework.
 - [Godot Engine](https://godotengine.org/) for the game development platform.
 
