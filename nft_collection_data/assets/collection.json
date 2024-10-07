@@ -1,0 +1,15 @@
+{
+    "name": "Orbit Vessels",
+    "description": "Spacecraft for traveling in Orbit!",
+    "image": "https://i.ibb.co/wdnYpXf/collection.png",
+    "external_url": "https://example.com",
+    "properties": {
+      "files": [
+        {
+          "uri": "https://example.com/1.jpg",
+          "type": "image/jpg"
+        }
+      ],
+      "category": "image"
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "name": "Vessel #2",
+    "symbol": "O!Vessels",
+    "image": "73.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "73.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image"
+    },
+    "description": "Spacecraft for traveling in Orbit!",
+    "seller_fee_basis_points": 0,
+    "attributes": [
+        {
+            "trait_type": "Feature",
+            "value": "More boosters on the map"
+        }
+    ]
+}

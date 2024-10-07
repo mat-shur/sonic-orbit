@@ -1,0 +1,22 @@
+{
+    "name": "Vessel #1",
+    "symbol": "O!Vessels",
+    "image": "66.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "66.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image"
+    },
+    "description": "Spacecraft for traveling in Orbit!",
+    "seller_fee_basis_points": 0,
+    "attributes": [
+        {
+            "trait_type": "Feature",
+            "value": "Two lives"
+        }
+    ]
+}
