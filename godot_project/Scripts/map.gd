@@ -42,14 +42,13 @@ func has_internet_connection() -> bool:
 
 
 func has_access_to_rpc() -> bool:
-	var http_request = HTTPRequest.new()
-	add_child(http_request)
+	http_request.cancel_request()
 	
 	var request_body = {
 		"jsonrpc": "2.0",
 		"id": 1,
-		"method": "getBlock",
-		"params": [111]
+		"method": "getBalance",
+		"params": ["orbwa31L7BZ2bTTg9QgUPTxAB7KnFfeU8oT9b56XG7f"]
 	}
 	
 	var json_string = JSON.stringify(request_body)
@@ -63,6 +62,8 @@ func has_access_to_rpc() -> bool:
 	
 	if error != OK:
 		return false
+		
+	await http_request.request_completed
 	
 	return 1
 
@@ -97,7 +98,7 @@ func _ready() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -275,7 +276,7 @@ func _on_wallet_gui_input(event: InputEvent) -> void:
 			await has_access_to_rpc()
 			if not internet_status:
 				var alarm = sonic_alarm.instantiate()
-				alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+				alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 				alarm.get_node("Control/Timer").wait_time = 50
 				add_child(alarm)
 				
@@ -320,7 +321,7 @@ func _on_reg_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -392,7 +393,7 @@ func _on_buy_try_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -474,7 +475,7 @@ func _on_table_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -556,7 +557,7 @@ func _on_inventory_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -692,7 +693,7 @@ func _on_open_chest_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -801,14 +802,14 @@ func _on_save_result_pressed() -> void:
 		
 		return
 	
-	#await has_access_to_rpc()
-	#if not internet_status:
-		#var alarm = sonic_alarm.instantiate()
-		#alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
-		#alarm.get_node("Control/Timer").wait_time = 50
-		#add_child(alarm)
-		#
-		#return
+	await has_access_to_rpc()
+	if not internet_status:
+		var alarm = sonic_alarm.instantiate()
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
+		alarm.get_node("Control/Timer").wait_time = 50
+		add_child(alarm)
+		
+		return
 	
 	var tx := Transaction.new()
 	add_child(tx)
@@ -876,7 +877,7 @@ func _on_upgrades_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
@@ -1066,7 +1067,7 @@ func _on_buy_upgrade_pressed() -> void:
 	await has_access_to_rpc()
 	if not internet_status:
 		var alarm = sonic_alarm.instantiate()
-		alarm.text = "No RPC connection!\nSonic is not responsing...\nCheck news, try again later!"
+		alarm.text = "No RPC connection!\nSonic Devnet is not responsing...\nCheck news, try again later!"
 		alarm.get_node("Control/Timer").wait_time = 50
 		add_child(alarm)
 		
