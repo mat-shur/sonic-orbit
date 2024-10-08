@@ -48,7 +48,9 @@ To get started with **Orbit**, you have two options:
 ### 📱 Install via APK on Android
 
 1. **Download the APK**:
-   - *[This file from repository](#)*
+   - *[This file from repository](https://github.com/mat-shur/sonic-orbit/blob/main/Orbit.apk)*
+   - or
+   - *Download from [Google Drive](https://drive.google.com/file/d/1d5hi5XBz_7hdl-tOJlFdXPP1QTIw_GUy/view?usp=sharing)*
 
 2. **Install the APK**:
    - Transfer the APK file to your Android device.
@@ -60,7 +62,7 @@ To get started with **Orbit**, you have two options:
    - Visit the [Godot Engine Download Page](https://godotengine.org/download/windows/) and download Godot 4.3 for Windows.
 
 2. **Download the Game Project**:
-   - *[This folder from repository](#)*
+   - *[This folder from repository](https://github.com/mat-shur/sonic-orbit/tree/main/godot_project)*
 
 3. **Import the Project into Godot**:
    - Open Godot Engine.
