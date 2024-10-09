@@ -79,7 +79,7 @@ To get started with **Orbit**, you have two options:
 ❗️This option is only a last resort, please test on Android if you have the opportunity❗️
 
 1. **Download EXE folder**:
-   - *T[his folder from repository](https://github.com/mat-shur/sonic-orbit/tree/main/windows_game)*
+   - *[This folder from repository](https://github.com/mat-shur/sonic-orbit/tree/main/windows_game)*
 
 2. **Run EXE file**:
    - Open index.exe from this folder.
