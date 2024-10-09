@@ -72,6 +72,18 @@ To get started with **Orbit**, you have two options:
 4. **Run the Game**:
    - Once the project is loaded, click the **Play** button to start the game.
 
+### 💻 Play via Windows
+
+*Before the end of the event, I thought that the judges might not have access to an android to use the APK, so I decided to build it for Windows.*
+
+❗️This option is only a last resort, please test on Android if you have the opportunity❗️
+
+1. **Download EXE folder**:
+   - *T[his folder from repository](https://github.com/mat-shur/sonic-orbit/tree/main/windows_game)*
+
+2. **Run EXE file**:
+   - Open index.exe from this folder.
+
 ---
 
 ## 🕹️ How to Play
