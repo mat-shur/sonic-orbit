@@ -171,7 +171,7 @@ I also won't hide the fact that I got my first pang of curiosity when I accident
 
 ## ⚙️ Anchor Program Information
 
-The game's backend is implemented using an **Anchor** program in Rust, deployed on the Sonic SVM platform. The program handles token minting, leaderboard management, player registration, gameplay attempts, and NFT minting.
+The game's backend is implemented using an **Anchor** program in Rust, deployed on the Sonic SVM platform. The program handles token minting, leaderboard management, player registration, gameplay attempts.
 
 ### 📊 UML Diagram of Program
 ```mermaid
